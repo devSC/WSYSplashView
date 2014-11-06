@@ -18,6 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationController.navigationBar.barTintColor = [UIColor redColor];
+    
     _backGroundImage = [UIImageView new];
     [_backGroundImage setImage:[UIImage imageNamed:@"IMG_1859"]];
     _backGroundImage.contentMode = UIViewContentModeScaleAspectFill;
